@@ -1,1 +1,7 @@
-<p>home works!</p>
+<h1 [ngStyle]="{
+    'color': h1Style ? 'gray': 'black',
+    'size': !h1Style ? '1em': '4em'
+}">Home</h1> <!--with class making changes with specified class--> <!-- css condition + refelction to parameters-->
+
+<!-- add button with event (click) which is responsible for launching method firstClick, name which will appear on button is: ClickMe-->
+<button (click)="firstClick()">ClickMe</button>

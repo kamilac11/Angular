@@ -10,6 +10,13 @@ export class NavComponent implements OnInit {
   appTitle = 'myapp';
   constructor() { }
 
+  /**
+   * TS way: appTitle: string = 'myapp';
+   */
+
+  /**
+   * JavaScript way: appTitle = 'myapp';
+   */
   ngOnInit() {
   }
 

@@ -1,12 +1,13 @@
 <header>
     <div class="container">
-      <a routerLink="/" class="logo">{{ appTitle }}</a>
+      <a routerLink="/" class="logo">{{ appTitle }}</a> <!--here we are reflecting to this object, which is defined in nav.component.ts-->
       <nav>
         <ul>
-          <li><a routerLink="/">Home</a></li>
-          <li><a routerLink="/about">About</a></li>
-          <li><a routerLink="/contact">Contact us</a></li>
+          <li><a routerLink="/" target="_self"><b>Home</b></a></li>
+          <li><a routerLink="/about"><b>About</b></a></li>
+          <li><a routerLink="/contact"><b>Contact us</b></a></li>
         </ul>
+        <b><hr></b>
       </nav>
     </div>
   </header>
